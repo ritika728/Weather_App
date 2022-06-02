@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #776b59;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 410px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.Search{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: white;
+}
+.Search input[type="text"] {
+    height: 3.5rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right: 4px;
+}
+.Search input[type="submit"] {
+    height: 3.2rem;
+    width: 6.5rem;
+    background: #0a67ca;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.portion{
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+}
+.main{
+    background-color: white;
+    height: 30vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.main h2{
+padding: 5px 0;
+text-align: center;
+background: #0548b5;
+color: white;
+font-family: sans-serif;
+}
+.main p{
+margin:20px 50px;
+margin-right: 20px;
+text-align: left;
+color: #04214c;
+font-size:23px;
+}
+
+.main h2 span{
+font-size: 26px;
+color: #9beefb;
+}
+
+.main p span{
+color: #90006e;
+font-size: 25px;
+}
+.ziggi{
+  height: 130px;
+  background-color: aliceblue;
+}
+.ziggi h1{
+  padding-top: 20px;
+  font-size: 35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: black;
+  padding-bottom: 10px;
+}
+.ziggi h3{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 10px;
+  text-align: center;
+  color: #04214c;
+}
